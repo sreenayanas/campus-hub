@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [campus-hub] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [2humans]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [SREELAKSHMI A] - [LBS Institute Of Technology For Women,Poojappura]
+- Member 2: [SREE NAYANA S] - [LBS Institute Of Technology For Women,Poojappura]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[campus-hub-omega.vercel.app]
 
 ### Project Description
-[2-3 lines about what your project does]
+[web application for centralised ,real time event information and enrollement for college students for events by clubs, associations and important notification]
 
 ### The Problem statement
-[What problem are you solving?]
+College students often miss out on events, club sctivities and important notifications due to scattered information across different platforms.There is no single centralized system to vie,enroll and track campus events efficiently
 
 ### The Solution
-[How are you solving it?]
+[We propose a we app where students can browse events by category,enroll in them,and track their personal calender,while admins can easily add and manage events in real time]
 
 ---
 
@@ -31,10 +31,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used:[JavaScript,JSX,HTML,CSS]
+- Frameworks used: [React]
+- Libraries used: [React Router Dom, Firebase]
+- Tools used: [Vite, Node.js,VS code, Git GIt hub]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +46,11 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- ADMIN EVENT MANAGEMENT : Admins can add new events with title , date, type and category
+- STUDENT EVENT BROWSER : Students can view events organized by clus, association and college notiifications
+- ENROLLMENT SYSTEM : S tudents can enroll in events by clicking the enroll button
+- CALENDER OF ENROLLED EVENTS: Enrolled events automatically appear in a calender section
+
 
 ---
 
@@ -59,12 +60,12 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+Installation commands -  npm install
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+Run commands - npm run dev
 ```
 
 ### For Hardware:
@@ -83,8 +84,9 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![admin page](https://github.com/user-attachments/assets/a703f044-a263-4311-a745-5be378691b1c)
+
+Admin page for updating events
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
@@ -102,7 +104,26 @@ List the key features of your project:
 **Application Workflow:**
 
 ![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+*Add caption eAdmin Adds Events
+1.Admin logs in → sees Admin Page
+Fills Event Title, Date, Type, Category
+Clicks Add Event → saved to Firebase Firestore
+2️. Student Views Events
+Student opens Home Page (/)
+Sees 3 buttons: Club Events, Association Events, College Notifications
+Selects a category → sees cards of events color-coded by type
+3️. Student Enrolls
+Clicks Enroll on an event card
+Event ID added to student’s enrolledUsers array in Firestore
+Button turns green to indicate enrollment
+4️. Calendar & Dashboard
+Enrolled events automatically appear in calendar view
+Student can track all upcoming events
+Admin can view or update events
+5️. Deployment
+App built with Vite + React → npm run build
+Hosted on Netlify or Vercel
+_redirects ensures all React Router routes work onlinexplaining your workflow*
 
 ---
 
@@ -118,7 +139,8 @@ List the key features of your project:
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+![Team ![WhatsApp Image 2026-02-14 at 10 26 23 AM](https://github.com/user-attachments/assets/d868ff5c-70a2-4a7f-8327-103d5957fa01)
+
 
 ![Components](Add photo of your components here)
 *List out all components shown*
